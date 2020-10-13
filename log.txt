@@ -1,0 +1,91 @@
+
+User: anh muốn khóa thẻ
+Bot: Quý khách vui lòng cung cấp số thẻ (số thẻ được in ở mặt sau của thẻ, bao gồm 11 chữ số): 
+
+User: 121
+Bot: Quý khách vui lòng cung cấp số thẻ (số thẻ được in ở mặt sau của thẻ, bao gồm 11 chữ số): 
+
+User: 123
+Bot: Quý khách vui lòng cung cấp số thẻ (số thẻ được in ở mặt sau của thẻ, bao gồm 11 chữ số): 
+
+User: 123
+Bot: Quý khách vui lòng cung cấp số thẻ (số thẻ được in ở mặt sau của thẻ, bao gồm 11 chữ số): 
+
+User: 1231
+Bot: Quý khách vui lòng cung cấp số thẻ (số thẻ được in ở mặt sau của thẻ, bao gồm 11 chữ số): 
+
+User: thôi
+Bot: Hẹn gặp lại quý khách sau.
+Chào quý khách.
+
+User: khóa thẻ
+Bot: Quý khách vui lòng cung cấp số thẻ (số thẻ được in ở mặt sau của thẻ, bao gồm 11 chữ số): 
+
+User: số dư hiện tại của anh là bao nhiêu
+Bot: Vui lòng cung cấp số thẻ của bạn: 
+
+User: 1234567
+Bot: Vui lòng cung cấp số thẻ của bạn: 
+
+User: 1234567890
+Bot: Vui lòng cung cấp số thẻ của bạn: 
+
+User: hello
+Bot: Vâng, chào bạn. Tôi có thể giúp gì cho bạn.
+
+User: anh muốn mở thẻ
+Bot: Chúng tôi có thể có 2 loại thẻ sau. Quý khách cần làm thẻ nào? 
+1. Thẻ tín dụng/Credit card 
+2. Thẻ ghi nợ/thẻ Atm
+Quý khách có thể chọn 1/2 hoặc cung cấp tên loại thẻ bạn muốn làm.
+
+User: anh muốn vay tiền
+Bot: Chúng tôi cung cấp 3 gói vay hiện tại.
+1.Gói vay cá nhân(cưới hỏi, du lịch, học tập etc)
+2.Khoản vay mua nhà
+3.Khoản vay mua ô tô
+Quý khách cần mang theo các giấy tờ cần thiết như chứng minh thư nhân dân và một số giấy tờ chứng minh thu nhập đến quầy của chúng tôi để được hỗ trợ.
+ Để biết thông tin chi tiết các khoản vay, chọn 1, 2 hoặc 3 ứng với từng khoản vay.
+Xin cảm ơn.
+
+User: anh muốn khóa thẻ
+Bot: Quý khách vui lòng cung cấp số thẻ (số thẻ được in ở mặt sau của thẻ, bao gồm 11 chữ số): 
+
+User: 1123
+Bot: Quý khách vui lòng cung cấp số thẻ (số thẻ được in ở mặt sau của thẻ, bao gồm 11 chữ số): 
+
+User: 132
+Bot: Quý khách vui lòng cung cấp số thẻ (số thẻ được in ở mặt sau của thẻ, bao gồm 11 chữ số): 
+
+User: 12345678907
+Bot: Chúng tôi sẽ thực hiện khóa thẻ 12345678907 của quý khách. Quý khách chắc chắn chứ?
+
+User: anh muốn mở thẻ mới
+Bot: Chúng tôi có thể có 2 loại thẻ sau. Quý khách cần làm thẻ nào? 
+1. Thẻ tín dụng/Credit card 
+2. Thẻ ghi nợ/thẻ Atm
+Quý khách có thể chọn 1/2 hoặc cung cấp tên loại thẻ bạn muốn làm.
+
+User: số dư hiện tại
+Bot: Tài khoản 12345678907 của quý khách đang có số dư là 11.000.000 vnđ.
+
+User: thông tin tài khoản hiện tại
+Bot: Số tài khoản: 12345678907
+Tên chủ tài khoản: Phạm Hữu Quang 
+Chi nhánh: Sun* chi nhánh Hải Dương
+Loại tài khoản: tài khoản bạch kim
+Số dư hiện tại: 11.000.000.000 vnđ.
+Giao dịch gần nhất: 500.000.000 vnđ
+
+User: anh làm mất thẻ rồi
+Bot: Chúng tôi sẽ thực hiện khóa thẻ 12345678907 của quý khách. Quý khách chắc chắn chứ?
+
+User: no
+Bot: Quý khách còn cần hỗ trợ gì nữa không?
+
+User: cho gặp chăm sóc khách hàng
+Bot: Tổng đài chăm sóc khách hàng của Sun* bank là 19001000.
+
+User: thôi nghỉ
+Bot: Cảm ơn quý khách đã sử dụng dịch vụ của chúng tôi. Tạm biệt.
+

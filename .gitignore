@@ -1,0 +1,4 @@
+chat_nlu/models/
+web_app/flask_session/
+web_app/__pycache__/
+flask_session/
