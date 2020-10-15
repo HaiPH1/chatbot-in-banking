@@ -9,6 +9,8 @@ import os
 from flask_session import Session
 import response_config
 import datetime
+from utils import normalize_text
+
 
 app = Flask(__name__)
 app.config["SECRET_KEY"] = os.urandom(24)
@@ -60,6 +62,8 @@ def chat():
             text = request.form["text"].lower()
         except Exception:
             text = eval(request.get_data())["text"].lower()
+
+        text = normalize_text(text)
 
         try:
             responses = requests.request(
