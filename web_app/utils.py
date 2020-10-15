@@ -18,7 +18,7 @@ replace_list = {
 
 def normalize_text(text):
     text = text.lower()
-    text = normalize(text)
+    text = normalize('NFC', text)
     for k, v in replace_list.items():
         text = text.replace(k, v)
 
