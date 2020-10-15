@@ -1,0 +1,15 @@
+User: anh muốn khoá thẻ
+Bot: Quý khách cần trợ giúp gì ạ?
+
+User: anh muốn khoá thẻ
+Bot: Kính chào quý khách, quý khách cần trợ giúp gì ạ?
+
+User: anh muốn khóa thẻ
+Bot: Quý khách vui lòng cung cấp số thẻ (số thẻ được in ở mặt sau của thẻ, bao gồm 11 chữ số): 
+
+User: anh muốn khóa thẻ
+Bot: Quý khách vui lòng cung cấp số thẻ (số thẻ được in ở mặt sau của thẻ, bao gồm 11 chữ số): 
+
+User: anh muốn khóa thẻ
+Bot: Quý khách vui lòng cung cấp số thẻ (số thẻ được in ở mặt sau của thẻ, bao gồm 11 chữ số): 
+
