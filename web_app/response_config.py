@@ -14,7 +14,6 @@ default_responses = {
         "Kính chào quý khách, quý khách cần trợ giúp gì ạ?",
         "Quý khách cần trợ giúp gì ạ?",
         "Sun* bank xin kính chào quý khách.",
-        "Hi",
         "Vâng, chào bạn. Tôi có thể giúp gì cho bạn."
     ],
     "goodbye": [
@@ -27,6 +26,11 @@ default_responses = {
     "confused": [
         "Xin lỗi, tôi chưa được huấn luyện để trả lời những câu hỏi của bạn.",
         "Xin lỗi anh chị, em chưa được chuẩn bị để trả lời những câu hỏi này."
+    ],
+    "thanks": [
+        "Dạ không có gì ạ. Quý khách còn cần trợ giúp gì nữa không ạ?",
+        "Dạ không có gì ạ.",
+        "Dạ không có gì ạ. Cảm ơn quý khách đã sử dụng dịch vụ của ngân hàng."
     ],
     "bank_infor": ["Tổng đài chăm sóc khách hàng của Sun* bank là 19001000."],
     "bank_intro": [
@@ -96,7 +100,9 @@ new_card_response = {
 
 card_charge = {
     "card_charge_intro":
-        "Phí sử dụng thẻ Credit là 300.000 vnđ/năm."
+        "Phí sử dụng thẻ tín dụng/credit là 300.000 vnđ/năm."
         " Trong năm đầu tiên phát hành thẻ, chúng tôi sẽ hoàn lại 100% phí "
-        "thường niên năm đầu tiên.",
+        "thường niên năm đầu tiên.\n"
+        "Thẻ ATM được miễn phí phí sử dụng thẻ trong suốt thời gian sử dụng. "
+        "Phí SMS banking là 11.000 vnđ/tháng.",
 }

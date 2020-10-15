@@ -89,3 +89,200 @@ Bot: Tổng đài chăm sóc khách hàng của Sun* bank là 19001000.
 User: thôi nghỉ
 Bot: Cảm ơn quý khách đã sử dụng dịch vụ của chúng tôi. Tạm biệt.
 
+User: cho anh hỏi phí thường niên
+Bot: Phí sử dụng thẻ tín dụng/credit là 300.000 vnđ/năm. Trong năm đầu tiên phát hành thẻ, chúng tôi sẽ hoàn lại 100% phí thường niên năm đầu tiên.
+Thẻ ATM được miễn phí phí sử dụng thẻ trong suốt thời gian sử dụng.Phí SMS banking là 11.000 vnđ/tháng.
+
+User: phí thường niên thẻ debit
+Bot: Phí thường niên thẻ debit là 300.000 vnđ/năm.
+
+User: thế còn thẻ atm thì sao
+Bot: Thẻ ATM sử dụng miễn phí hàng năm, không cần nộp phí sử dụng.
+
+User: anh muốn khóa thẻ
+Bot: Quý khách vui lòng cung cấp số thẻ (số thẻ được in ở mặt sau của thẻ, bao gồm 11 chữ số): 
+
+User: thôi
+Bot: Cảm ơn quý khách đã sử dụng dịch vụ của chúng tôi. Tạm biệt quý khách.
+
+User: anh muốn khóa thẻ số 12123123451
+Bot: Cảm ơn quý khách đã sử dụng dịch vụ của chúng tôi. Tạm biệt quý khách.
+
+User: anh muốn khóa thẻ số 12123123451
+Bot: Cảm ơn quý khách đã sử dụng dịch vụ của chúng tôi. Tạm biệt quý khách.
+
+User: thôi
+Bot: Hẹn gặp lại quý khách sau.
+Chào quý khách.
+
+User: anh muốn khóa thẻ số 12123123451
+Bot: Cảm ơn quý khách đã sử dụng dịch vụ của chúng tôi. Tạm biệt quý khách.
+
+User: anh muốn khóa thẻ số
+Bot: Quý khách vui lòng cung cấp số thẻ (số thẻ được in ở mặt sau của thẻ, bao gồm 11 chữ số): 
+
+User: 12345675432
+Bot: Chúng tôi sẽ thực hiện khóa thẻ 12345675432 của quý khách. Quý khách chắc chắn chứ?
+
+User: thôi
+Bot: Cảm ơn quý khách đã sử dụng dịch vụ của chúng tôi. Tạm biệt quý khách.
+
+User: anh muốn khóa thẻ số 12345678909
+Bot: Chúng tôi sẽ thực hiện khóa thẻ 12345678909 của quý khách. Quý khách chắc chắn chứ?
+
+User: anh muốn khóa thẻ số 88888888888
+Bot: Quý khách còn cần hỗ trợ gì nữa không?
+
+User: anh muốn khóa thẻ số 88888888888
+Bot: Chúng tôi sẽ thực hiện khóa thẻ 88888888888 của quý khách. Quý khách chắc chắn chứ?
+
+User: phí thường niên các loại thẻ như nào
+Bot: Phí sử dụng thẻ tín dụng/credit là 300.000 vnđ/năm. Trong năm đầu tiên phát hành thẻ, chúng tôi sẽ hoàn lại 100% phí thường niên năm đầu tiên.
+Thẻ ATM được miễn phí phí sử dụng thẻ trong suốt thời gian sử dụng.Phí SMS banking là 11.000 vnđ/tháng.
+
+User: phí thường niên thẻ debit
+Bot: Phí thường niên thẻ debit là 300.000 vnđ/năm.
+
+User: thế còn thẻ atm thì sao
+Bot: Thẻ ATM sử dụng miễn phí hàng năm, không cần nộp phí sử dụng.
+
+User: anh đang nợ bao nhiêu
+Bot: Quý khách vui lòng cung cấp số thẻ (số thẻ được in ở mặt sau của thẻ, bao gồm 11 chữ số): 
+
+User: anh đang nợ bao nhiêu
+Bot: Quý khách vui lòng cung cấp số thẻ (số thẻ được in ở mặt sau của thẻ, bao gồm 11 chữ số): 
+
+User: anh đang nợ bao nhiêu
+Bot: Hạn mức tín dụng của thẻ 12345678909 còn lại là 40.000.000 vnđ, hạn mức tín dụng tối đa 45.000.000 vnđ.Vui lòng thanh toán trước ngày 5/10/2020.
+
+User: anh đang nợ bao nhiêu
+Bot: Hạn mức tín dụng của thẻ 12345678909 còn lại là 40.000.000 vnđ, hạn mức tín dụng tối đa 45.000.000 vnđ.Vui lòng thanh toán trước ngày 5/11/2020.
+
+User: anh muốn khóa thẻ số 12345678909
+Bot: Chúng tôi sẽ thực hiện khóa thẻ 12345678909 của quý khách. Quý khách chắc chắn chứ?
+
+User: đổi password với
+Bot: Quý khách không thể đổi mật khẩu trên chatbot. Vui lòng đến chi nhánh gần nhất của chúng tôi để được hỗ trợ.
+
+User: mở thẻ
+Bot: Chúng tôi có thể có 2 loại thẻ sau. Quý khách cần làm thẻ nào? 
+1. Thẻ tín dụng/Credit card 
+2. Thẻ ghi nợ/thẻ Atm
+Quý khách có thể chọn 1/2 hoặc cung cấp tên loại thẻ bạn muốn làm.
+
+User: ok em
+Bot: Chúng tôi không hỗ trợ loại thẻ này hoặc tin nhắn không liên quan tới việc hỗ trợ làm thẻ. Quý khách có cần hỗ trợ gì nữa không ạ?
+
+User: cảm ơn em
+Bot: Hi
+
+User: anh muốn mở thẻ
+Bot: Chúng tôi có thể có 2 loại thẻ sau. Quý khách cần làm thẻ nào? 
+1. Thẻ tín dụng/Credit card 
+2. Thẻ ghi nợ/thẻ Atm
+Quý khách có thể chọn 1/2 hoặc cung cấp tên loại thẻ bạn muốn làm.
+
+User: okie em
+Bot: Dạ không có gì ạ.
+
+User: anh muốn vay tiền
+Bot: Chúng tôi cung cấp 3 gói vay hiện tại.
+1.Gói vay cá nhân(cưới hỏi, du lịch, học tập etc)
+2.Khoản vay mua nhà
+3.Khoản vay mua ô tô
+Quý khách cần mang theo các giấy tờ cần thiết như chứng minh thư nhân dân và một số giấy tờ chứng minh thu nhập đến quầy của chúng tôi để được hỗ trợ.
+ Để biết thông tin chi tiết các khoản vay, chọn 1, 2 hoặc 3 ứng với từng khoản vay.
+Xin cảm ơn.
+
+User: gói gay thứ nhất thì sao
+Bot: Chúng tôi không hỗ trợ mục đích vay này hoặc tin nhắn không liên quan tới việc hỗ trợ gói vay. Bạn có cần hỗ trợ gì nữa không?
+
+User: gói vay 1 
+Bot: Chúng tôi cung cấp 3 gói vay hiện tại.
+1.Gói vay cá nhân(cưới hỏi, du lịch, học tập etc)
+2.Khoản vay mua nhà
+3.Khoản vay mua ô tô
+Quý khách cần mang theo các giấy tờ cần thiết như chứng minh thư nhân dân và một số giấy tờ chứng minh thu nhập đến quầy của chúng tôi để được hỗ trợ.
+ Để biết thông tin chi tiết các khoản vay, chọn 1, 2 hoặc 3 ứng với từng khoản vay.
+Xin cảm ơn.
+
+User: gói vay 1
+Bot: Chúng tôi không hỗ trợ mục đích vay này hoặc tin nhắn không liên quan tới việc hỗ trợ gói vay. Bạn có cần hỗ trợ gì nữa không?
+
+User: gói 1
+Bot: Sun* bank xin kính chào quý khách.
+
+User: vay tiền
+Bot: Chúng tôi cung cấp 3 gói vay hiện tại.
+1.Gói vay cá nhân(cưới hỏi, du lịch, học tập etc)
+2.Khoản vay mua nhà
+3.Khoản vay mua ô tô
+Quý khách cần mang theo các giấy tờ cần thiết như chứng minh thư nhân dân và một số giấy tờ chứng minh thu nhập đến quầy của chúng tôi để được hỗ trợ.
+ Để biết thông tin chi tiết các khoản vay, chọn 1, 2 hoặc 3 ứng với từng khoản vay.
+Xin cảm ơn.
+
+User: gói 1
+Bot: Chúng tôi hỗ trợ gói vay lên tới 200 triệu vnđ cho mục đích cưới hỏi, quý khách cần mang mang theo các giấy tờ sau tới chi nhánh Sun* gần nhất của chúng tôi để đăng kí.
+1. Chứng minh thư nhân dân
+2. Sổ hộ khẩu
+3. Vợ sắp cưới của bạn --> yêu cầu chữ ký của cả 2 vợ chồng.
+
+User: gói 2 thì sao
+Bot: Chúng tôi hỗ trợ gói vay lên tới 500 triệu vnđ cho mục đích mua nhà, quý khách cần mang mang theo các giấy tờ sau tới chi nhánh Sun* gần nhất của chúng tôi để đăng kí.
+1. Chứng minh thư nhân dân
+2. Sổ hộ khẩu
+3. Sao kê lương 3 tháng gần nhất
+
+User: phí thường niên các loại thẻ như nào
+Bot: Phí sử dụng thẻ tín dụng/credit là 300.000 vnđ/năm. Trong năm đầu tiên phát hành thẻ, chúng tôi sẽ hoàn lại 100% phí thường niên năm đầu tiên.
+Thẻ ATM được miễn phí phí sử dụng thẻ trong suốt thời gian sử dụng. Phí SMS banking là 11.000 vnđ/tháng.
+
+User: phí thường niên thẻ debit
+Bot: Phí thường niên thẻ debit là 300.000 vnđ/năm.
+
+User: thẻ atm thì sao
+Bot: Thẻ ATM sử dụng miễn phí hàng năm, không cần nộp phí sử dụng.
+
+User: khóa cho anh thẻ 123 với
+Bot: Phí sử dụng thẻ tín dụng/credit là 300.000 vnđ/năm. Trong năm đầu tiên phát hành thẻ, chúng tôi sẽ hoàn lại 100% phí thường niên năm đầu tiên.
+Thẻ ATM được miễn phí phí sử dụng thẻ trong suốt thời gian sử dụng. Phí SMS banking là 11.000 vnđ/tháng.
+
+User: khóa cho anh thẻ 123 với
+Bot: Kính chào quý khách, quý khách cần trợ giúp gì ạ?
+
+User: khóa cho anh thẻ 123 với
+Bot: Quý khách cần trợ giúp gì ạ?
+
+User: khóa cho anh thẻ 12345678909
+Bot: Chúng tôi sẽ thực hiện khóa thẻ 12345678909 của quý khách. Quý khách chắc chắn chứ?
+
+User: khóa cho anh thẻ 123 với
+Bot: Quý khách vui lòng cung cấp số thẻ (số thẻ được in ở mặt sau của thẻ, bao gồm 11 chữ số): 
+
+User: anh muốn khóa thẻ
+Bot: Quý khách vui lòng cung cấp số thẻ (số thẻ được in ở mặt sau của thẻ, bao gồm 11 chữ số): 
+
+User: anh muốn mở thẻ
+Bot: Chúng tôi có thể có 2 loại thẻ sau. Quý khách cần làm thẻ nào? 
+1. Thẻ tín dụng/Credit card 
+2. Thẻ ghi nợ/thẻ Atm
+Quý khách có thể chọn 1/2 hoặc cung cấp tên loại thẻ bạn muốn làm.
+
+User: okie em
+Bot: Dạ không có gì ạ. Cảm ơn quý khách đã sử dụng dịch vụ của ngân hàng.
+
+User: anh muốn vay tiền
+Bot: Chúng tôi cung cấp 3 gói vay hiện tại.
+1.Gói vay cá nhân(cưới hỏi, du lịch, học tập etc)
+2.Khoản vay mua nhà
+3.Khoản vay mua ô tô
+Quý khách cần mang theo các giấy tờ cần thiết như chứng minh thư nhân dân và một số giấy tờ chứng minh thu nhập đến quầy của chúng tôi để được hỗ trợ.
+ Để biết thông tin chi tiết các khoản vay, chọn 1, 2 hoặc 3 ứng với từng khoản vay.
+Xin cảm ơn.
+
+User: gói vay số 2 thì sao
+Bot: Chúng tôi hỗ trợ gói vay lên tới 500 triệu vnđ cho mục đích mua nhà, quý khách cần mang mang theo các giấy tờ sau tới chi nhánh Sun* gần nhất của chúng tôi để đăng kí.
+1. Chứng minh thư nhân dân
+2. Sổ hộ khẩu
+3. Sao kê lương 3 tháng gần nhất
+
