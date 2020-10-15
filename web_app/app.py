@@ -79,11 +79,17 @@ def chat():
         confidence = responses["intent"]["confidence"]
 
         if confidence > 0.5:
-
-            if responses["intent"]["name"] != session.get("intent", "not set"):
+            print(session.get("intent", "not set"), responses["intent"]["name"])
+            if (
+                responses["intent"]["name"] != session.get("intent", "not set")
+                and not (
+                    session.get("intent", "not set") == "lost_card"
+                    and responses["intent"]["name"] == "thanks"
+                )
+            ):
                 session["time_sequen"] = 0
 
-            session["intent"] = responses["intent"]["name"]
+                session["intent"] = responses["intent"]["name"]
 
         intent = session.get("intent", "not set")
 

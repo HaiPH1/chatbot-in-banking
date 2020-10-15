@@ -100,7 +100,8 @@ new_card_response = {
 
 card_charge = {
     "card_charge_intro":
-        "Phí sử dụng thẻ tín dụng/credit là 300.000 vnđ/năm."
+        "Phí sử dụng thẻ tín dụng/credit "
+        "và thẻ ghi nợ/debit là 300.000 vnđ/năm."
         " Trong năm đầu tiên phát hành thẻ, chúng tôi sẽ hoàn lại 100% phí "
         "thường niên năm đầu tiên.\n"
         "Thẻ ATM được miễn phí phí sử dụng thẻ trong suốt thời gian sử dụng. "
