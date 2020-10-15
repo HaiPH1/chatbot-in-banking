@@ -5,7 +5,11 @@ affirm_message = [
     "yes", "vâng", "đúng",
     "đúng vậy", "đúng thế",
     "đúng rồi", "ừ", "chính xác",
-    "ok", "okie"
+    "ok", "okie", "cảm ơn", "cảm ơn em",
+    "thanks", "thank you", "xin cảm ơn",
+    "anh cảm ơn", "cảm ơn nhé", "ok em",
+    "okie em", "ừ vậy được rồi",
+    "ừ được", "okay"
 ]
 
 # dict of response for each type of basic intent
