@@ -8,6 +8,7 @@ import re
 import os
 from flask_session import Session
 import response_config
+import datetime
 
 app = Flask(__name__)
 app.config["SECRET_KEY"] = os.urandom(24)
@@ -26,6 +27,21 @@ def hello_world():
     session["card_id"] = None
     session["time_sequen"] = 0
     return render_template("home.html")
+
+
+@app.route("/reset_session")
+def reset_session():
+    """
+    reset session
+    """
+    session["intent"] = None
+    session["entity"] = None
+    session["value"] = None
+    session["card_id"] = None
+    session["time_sequen"] = 0
+    return jsonify(
+                {"status": "success"}
+            )
 
 
 def get_random_response(intent):
@@ -62,7 +78,7 @@ def chat():
         length = len(entities)
         confidence = responses["intent"]["confidence"]
 
-        if confidence > 0.6:
+        if confidence > 0.5:
 
             if responses["intent"]["name"] != session.get("intent", "not set"):
                 session["time_sequen"] = 0
@@ -74,6 +90,8 @@ def chat():
         # print(intent)
         if intent is None:
             response_text = get_random_response("greet")
+        elif intent == "thanks":
+            response_text = get_random_response('thanks')
         # Un-affirm
         elif intent == "un-affirm":
             response_text = get_random_response('goodbye')
@@ -154,7 +172,6 @@ def chat():
 
         # Card charge
         elif intent == "card_charge":
-
             if length > 0 and entities[0]["entity"] == "card_type":
                 if entities[0]["value"].lower() == "thẻ atm":
                     response_text = "Thẻ ATM sử dụng miễn phí hàng năm, "\
@@ -173,8 +190,8 @@ def chat():
             else:
                 card_charge = response_config.card_charge
                 response_text = card_charge["card_charge_intro"]
-            session["intent"] = None
-            session["time_sequen"] = 0
+                session["intent"] = None
+                session["time_sequen"] = 0
 
         # Change Password
         elif intent == "change_password":
@@ -190,6 +207,10 @@ def chat():
 
             if (
                 text == "1"
+                or "số 1" in text
+                or "gói 1" in text
+                or "gói vay 1" in text
+                or "thứ nhất" in text
                 or "cưới" in text
                 or "lấy vợ" in text
                 or "cá nhân" in text
@@ -197,10 +218,25 @@ def chat():
             ):
                 entity = "loan_type"
                 value = "cưới hỏi"
-            elif text == "2" or "nhà" in text:
+            elif (
+                    text == "2"
+                    or "nhà" in text
+                    or "số 2" in text
+                    or "gói 2" in text
+                    or "thứ 2" in text
+                    or "gói vay 2" in text
+            ):
                 entity = "loan_type"
                 value = "mua nhà"
-            elif text == "3" or "xe" in text or "ô tô" in text:
+            elif (
+                    text == "3"
+                    or "xe" in text
+                    or "ô tô" in text
+                    or "số 3" in text
+                    or "gói 3" in text
+                    or "thứ ba" in text
+                    or "gói vay 3" in text
+            ):
                 entity = "loan_type"
                 value = "mua xe"
 
@@ -301,10 +337,13 @@ def chat():
                     "(số thẻ được in ở mặt sau của thẻ, bao gồm 11 chữ số): "
                 )
             else:
+                month = datetime.datetime.now().month + 1
+                year = datetime.datetime.now().year
                 response_text = (
                     "Hạn mức tín dụng của thẻ {0} còn lại là "
-                    "40.000.000 vnđ.".format(
-                        card_id
+                    "40.000.000 vnđ, hạn mức tín dụng tối đa 45.000.000 vnđ. "
+                    "Vui lòng thanh toán trước ngày 5/{1}/{2}.".format(
+                        card_id, str(month), str(year)
                     )
                 )
                 session["intent"] = None

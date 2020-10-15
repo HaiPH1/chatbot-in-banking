@@ -14,6 +14,23 @@
 - thôi đi
 - chào tạm biệt
 
+## intent:thanks
+- cảm ơn em
+- cảm ơn
+- thanks
+- thank you
+- cảm ơn em nhiều nhé
+- xin cảm ơn
+- em giỏi quá
+- anh cảm ơn
+- chị cảm ơn
+- cảm ơn nhé
+- ok em
+- okie em
+- ừ vậy được rồi
+- được đấy
+- okay
+
 ## intent: un-affirm
 - thôi anh không cần nữa
 - thôi không cần nữa
@@ -131,6 +148,10 @@
 - tôi làm mất thẻ rồi
 - cho anh báo mất thẻ
 - tôi làm mất thẻ
+- khóa cho anh thẻ số
+- khóa thẻ cho anh
+- giúp anh khóa thẻ
+- giúp anh khóa thẻ đi
 - tôi muốn khóa thẻ
 - tôi làm mất [thẻ credit card](card_type)
 - [thẻ credit card](card_type) của tôi không hoạt động
@@ -227,6 +248,14 @@
 - đổi mật khẩu tài khoản [thẻ tín dụng](card_type) bằng cách nào
 - hướng dẫn tôi đổi mật khẩu [thẻ tín dụng](card_type)
 - làm thế nào để cài đặt một mật khẩu mới
+- tôi muốn đổi password [thẻ tín dụng](card_type)
+- đổi password tài khoản [thẻ tín dụng](card_type) bằng cách nào
+- hướng dẫn tôi đổi password [thẻ tín dụng](card_type)
+- làm thế nào để cài đặt một password mới
+- tôi muốn đổi passwords [thẻ tín dụng](card_type)
+- đổi passwords tài khoản [thẻ tín dụng](card_type) bằng cách nào
+- hướng dẫn tôi đổi passwords [thẻ tín dụng](card_type)
+- làm thế nào để cài đặt một passwords mới
 
 ## intent:loan
 - cho anh xin thông tin về các khoản vay của ngân hàng mình
