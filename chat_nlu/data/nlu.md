@@ -62,6 +62,10 @@
 - cho anh mở thẻ đi
 - anh muốn làm thẻ mới
 - anh muốn mở thẻ
+- anh muốn làm thẻ
+- mở thẻ
+- mở debit
+- mở credit
 - cho mình mở thẻ
 - cho mình mở tài khoản
 - mình muốn hỗ trợ mở tài khoản
